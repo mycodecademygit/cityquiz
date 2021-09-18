@@ -4,7 +4,7 @@
 import random
 
 user_answer = ""
-score = 80
+score = 0
 line = "---------------------------------------------"
 win = """--------------------
 |                  |
@@ -15,17 +15,10 @@ ____________________"""
 num_of_questions = 0
 lives = 3
 
-q_a = {"France?" : "Paris",
-       "Great Britain?" : "London",
-       "USA?" : "Washington",
-       "Germany?" : "Berlin",
-       "Italy?" : "Rome",
-       "Spain?" : "Madrid",
-       "Japan?" : "Tokyo",
-       "China?" : "Beijing",
-       "India?" : "New Delhi",
-       "Australia?" : "Canberra",
-       "Belgium?" : "Brussels"}
+q_a = {"France?" : "Paris", "Great Britain?" : "London", "USA?" : "Washington", "Germany?" : "Berlin", "Italy?" : "Rome", "Spain?" : "Madrid", "Japan?" : "Tokyo", "China?" : "Beijing", "India?" : "New Delhi", "Australia?" : "Canberra",
+       "Belgium?" : "Brussels",
+       "Nigeria?" : "Abuja", "Ghana?" : "Accra", "Algeria?" : "Algiers", "Netherlands?" : "Amsterdam",
+       "Turkey?" : "Ankara", "Iraq?" : "Baghdad", "Iran?" : "Tehran", "Austria?" : "Vienna"}
 
 username = input("Please enter your first name: ")
 print(line)
